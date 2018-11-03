@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous" />
+    <link rel=stylesheet href="/style.css" type="text/css" />
+    <title>JS Demo Playground</title>
+</head>
+
+<body>
+    <h1>Javascript Playground!</h1>
+    <div class="dataDiv">
+        <em>
+            <h2 id="arrayTitle">Arrays!!!</h2>
+        </em>
+        <input id="arrayInput" />
+        <button onClick={enterArrayInput()}>Enter Array</button>
+        <div class="outputStyle">
+            <h4 id="arrayStructureOutput"></h4>
+        </div>
+        <input id="arrayCommand" />
+        <button onClick="enterArrayJS()">Enter Command</button>
+        <h3>New Array</h3>
+        <div class="outputStyle">
+            <h4 id="arrayJSOutput"></h4>
+        </div>
+        <h3>Value</h3>
+        <div class="outputStyle">
+            <h4 id="arrayJSValueOutput"></h4>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
